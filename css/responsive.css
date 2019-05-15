@@ -23,6 +23,19 @@
 	.menu{
 		margin-top: 20px;
 	}
+	.top_header .media{
+		font-size: 13px;
+	}
+	.box-search .text{
+		width: 80%;
+	}
+	.news-letter{
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+	.splq{
+		padding-left: 10px;
+	}
 }
 @media (min-width: 768px) {
 	

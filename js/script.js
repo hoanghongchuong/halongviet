@@ -12,7 +12,7 @@ $(document).ready(function($){
 	  		margin:0, 							
 	  		loop:true, 							
 	  		nav:true, 							
-	  		navText:['<i class="fa fa-caret-left"></i>','<i class="fa fa-caret-right"></i>'], 
+	  		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'], 
 	  		autoplay:false, 						
 	  		autoplayTimeout:1500,
 			autoplayHoverPause:true,
@@ -26,17 +26,17 @@ $(document).ready(function($){
 		            items:4,          
 		        },
 		        1000:{
-		            items:4,  
+		            items:5,  
 		        }
 		    }
 		});
 
-		var owl = $(".owl-carousel-slider");
+		var owl = $(".owl-carousel-partner");
 	  	owl.owlCarousel({
 	  		margin:0, 							
 	  		loop:true, 							
 	  		nav:true, 							
-	  		navText:['<i class="fa fa-caret-left"></i>','<i class="fa fa-caret-right"></i>'], 
+	  		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'], 
 	  		autoplay:false, 						
 	  		autoplayTimeout:1500,
 			autoplayHoverPause:true,
@@ -44,13 +44,13 @@ $(document).ready(function($){
 			responsiveClass:true, 				
 		    responsive:{
 		        0:{
-		            items:1,									            									            
+		            items:3,									            									            
 		        },
 		        600:{
 		            items:4,          
 		        },
 		        1000:{
-		            items:4,  
+		            items:8,  
 		        }
 		    }
 		});
